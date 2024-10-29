@@ -519,7 +519,7 @@ mark {
 .ticker {
   width: 100%;
   line-height: 1;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 700;
   color: var(--bs-dark);
   background-color: var(--bs-primary);
@@ -527,7 +527,7 @@ mark {
 }
 
 .ticker-component {
-  height: 150px !important;
+  height: 80px !important;
 }
 
 .ticker-text {
@@ -537,7 +537,7 @@ mark {
 
 .ticker-text:after {
   top: 3px;
-  right: -60px;
+  right: -100px;
   content: "#";
   position: relative;
 }

@@ -28,6 +28,25 @@
     <!-- Custom - CSS Include -->
     <link rel="stylesheet" type="text/css" href="demo_assets/css/style.css">
 
+<style>
+  .ticker{
+  width: 102%;
+  background: linear-gradient(to Top, #0000001e, #c7bbbb5d,#c7bbbb67, #0000000e);  color: #ffd700;
+}
+
+      @keyframes shine {
+          0% {
+              text-shadow: 0 0 5px #c8102f80, 0 0 10px rgba(255, 215, 0, 0.5);
+          }
+          50% {
+              text-shadow: 0 0 20px #ffd700, 0 0 30px rgba(255, 215, 0, 0.8);
+          }
+          100% {
+              text-shadow: 0 0 5px rgba(255, 215, 0, 0.7), 0 0 10px rgba(255, 215, 0, 0.5);
+          }
+      }
+</style>
+
   </head>
 
 
@@ -110,7 +129,14 @@
       <!-- Main Body - Start
       ================================================== -->
       <main class="page_content">
-
+        <div class="ticker" style="width: 200%;justify-content: center; z-index: 1; margin-top: 200px;">
+          <span class="ticker-item">AVENTRIX'24</span>
+          <span class="ticker-item">13K PRIZE POOL</span>
+          <span class="ticker-item">CSI</span>
+          <span class="ticker-item">AVENTRIX'24</span>
+          <span class="ticker-item">13K PRIZE POOL</span>
+          <span class="ticker-item">CSI</span>
+        </div>
         <!-- Hero Section - Start
         ================================================== -->
         <section id="hero_section" class="hero_section text-center">
@@ -144,6 +170,7 @@
         <section id="home_pages_section" class="home_pages_section">
           <div class="container" id="events">
             <div class="bg-secondary bg-gradient pb-lg-5">
+
               <div class="heading_block text-center">
                 <h1 class="heading_title mb-0">
                   <mark>EVENTS</mark></br><br> TECHNICAL <mark>/</mark> NON TECHNICAL
@@ -265,7 +292,7 @@
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
-
+    <script src="assets/js/ticker.min.js"></script>
     <!-- Animation Effects - jquery include -->
     <script src="assets/js/cursor.js"></script>
 
