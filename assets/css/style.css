@@ -861,7 +861,7 @@ mark {
 
 .ticker-text:after {
   top: 3px;
-  right: -60px;
+  right: -100px;
   content: "#";
   position: relative;
 }
