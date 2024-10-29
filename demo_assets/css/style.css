@@ -537,7 +537,7 @@ mark {
 
 .ticker-text:after {
   top: 3px;
-  right: -150px;
+  right: -100px;
   content: "#";
   position: relative;
 }
